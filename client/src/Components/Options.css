@@ -1,0 +1,36 @@
+.options {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.options > p {
+  font-weight: 300;
+  /* transition: 200ms ease-in; */
+  color: white;
+  margin: 5px auto;
+
+}
+.options >p,h4{
+  white-space: nowrap;
+  width: 215px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.options >h4{
+  font-weight: 300;
+  color: white; 
+  padding-left:15px;
+}
+.options > h4:hover {
+  font-weight: 400;
+  color:aliceblue;
+}
+.options >p:hover{
+  color:white;
+}
+.options_icons {
+  color: lightgray;
+  padding-right: 10px;
+}

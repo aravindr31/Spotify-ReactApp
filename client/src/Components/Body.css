@@ -1,0 +1,33 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+.head {
+  padding: 30px 20px;
+}
+.head > h1 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.recentFlexContainer{
+  display: flex;
+  flex-wrap:wrap;
+  max-height:200px;
+  overflow:hidden;  
+}
+.songfield {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+.songfield> h1 {
+  color: #ffffff;
+  font-size: 32px;
+  padding: 0 12px;
+}
+.songdata{
+  display: flex;
+
+}
+

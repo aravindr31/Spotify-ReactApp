@@ -1,0 +1,37 @@
+.sidebar {
+  display:flex;
+  flex-direction:column;
+  flex: 0.2;
+  height: 100vh;
+  max-width: 232px;
+  background-color: #080808;
+  /* overflow-y: auto; */
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+.sidebar_logo {
+  object-fit: contain;
+  height: 50px;
+  width: 80%;
+  padding: 10px;
+}
+.sidebar_playlist {
+  color: white;
+  margin: 0px 20px;
+  padding-bottom: 8px;
+}
+.sidebar > hr {
+  border: 1px solid rgb(65, 64, 64);
+  width: 90%;
+  margin-top: 5px;
+}
+.sidebar > h4 {
+  font-weight: 400;
+}
+.sidebar_playlist_options{
+  overflow-y: auto;
+}
+.sidebar_playlist_options::-webkit-scrollbar {
+  display: none;
+}

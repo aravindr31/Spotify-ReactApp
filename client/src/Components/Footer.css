@@ -1,0 +1,86 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #282828;
+  padding:10px 0px;
+}
+
+.PlayerRSWP{
+  background-color:#282828 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  /* z-index: 10; */
+}
+.rswp__active{
+  color:#fff;
+  padding: 10px;
+  display: flex !important;
+  align-items:center !important;
+  padding-bottom: 5px;
+  border: none;
+}
+._SliderRSWP{
+  flex: .5 !important;
+  display: flex !important;
+  justify-content:center;
+  width: 50%;
+  height:5px;
+  /* z-index: 1!important; */
+}
+._ContentRSWP{
+  flex: .5;
+  width: 100%;
+  padding-top: 10px;
+}
+.__nnvdcq span {
+  color:#fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+.__n0ipgs img{
+  object-fit: contain;
+  height: 60px !important;
+  width: 60px !important;
+  padding-bottom:5px;
+}
+.__nnvdcq{
+  margin-left:5px;
+}
+._VolumeRSWP{
+  margin-right:10px
+}
+._DevicesRSWP{
+  margin-right:10px
+}
+button{
+  outline: none;
+}
+
+.__1wlvwtr>div:not([class]):not([id]){
+  border-radius:15px;
+}
+.rrs>.rrs__track{
+  background-color:rgb(204, 204, 204)!important;
+}
+.rrs>.rrs__track>.rrs__range{
+  background-color:#1DB954 !important;
+}
+.rrs__thumb{
+  background-color:#1DB954 !important;  
+  border-color: #2f4035 !important;
+}
+.__fbkjpm{
+  padding-right: 20px ;
+}
+.__z265hn>div:not([class]):not([id]){
+  border-radius: 3px !important;
+}

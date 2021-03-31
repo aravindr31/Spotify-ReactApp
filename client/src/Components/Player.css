@@ -1,0 +1,59 @@
+.player{
+    flex:.9;
+    height:100vh;
+    background: linear-gradient(rgb(52, 67, 126),rgba(0,0,0,.7));
+    overflow-y:scroll;   
+    overflow-x: hidden;
+}
+.player::-webkit-scrollbar {
+    display: none;
+  }
+.header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width:100%;
+    padding-top:10px;
+}
+.header_left{
+    flex:.5;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+.header_right{
+    flex:.5;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding-right:20px;
+}
+.header_right>h3{
+    padding: 0 10px;
+    color: white;
+    font-weight: 500;
+    font-size:16px;
+}
+.search{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:white;
+    height:15px;
+    width: 210px;
+    border-radius: 25px;
+    padding:10px;
+}
+.search>.MuiSvgIcon-root{
+    color:#000;
+}
+.search>input {
+    border:none;
+    outline:none;
+}
+
+.arrows{
+    color:#fff;
+}

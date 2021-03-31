@@ -1,0 +1,24 @@
+.login{
+    display: grid;
+    place-items: center;
+    /* display:flex;
+    align-items:center;
+    justify-content:center; */
+    height: 100vh;
+    background-color:#191414    ;
+}
+.login_logo{
+    margin-top: 10vh;
+    width: 100%;
+    object-fit: contain;
+    height:40vh;
+}
+.login_button{
+    margin-top: 2vh;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    background-color:#1ED760 ;
+    text-decoration: none;
+}

@@ -1,0 +1,20 @@
+.searchResult {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+  }
+.songfield {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .songfield> h1 {
+    color: #ffffff;
+    font-size: 32px;
+    padding:15px 12px;
+  }
+  .songdata{
+    display: flex;
+    width:95vw;
+    flex-flow: wrap;
+  }

@@ -1,0 +1,37 @@
+.topGlassContainer {
+  flex: 0.33;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 312px;
+  background: white;
+  cursor: pointer;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.topGlassContainer > img {
+  object-fit: contain;
+  height: 80px;
+  width: 80px;
+  border-radius: 5px 0 0 5px;
+}
+.topGlassContainer > h2 {
+  padding-left: 10px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  white-space: nowrap;
+  width: 155px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.recent > .MuiSvgIcon-root {
+  color: #1ed760;
+  font-size: 45px !important;
+}
