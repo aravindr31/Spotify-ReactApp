@@ -1,7 +1,7 @@
 import React from "react";
 import { useStateProviderValue } from "../StateProvider";
-import "./Playlist.css"
-function Playlist({imageUrl , songName , artistName,trackUri}) {
+import "../Stylesheets/TrackCard.css"
+function TrackCard({imageUrl , songName , artistName,trackUri}) {
   const [{nowPlaying},dispatch]=useStateProviderValue()
   const handlePlay = ()=>{
 dispatch({
@@ -20,4 +20,4 @@ dispatch({
   );
 }
 
-export default Playlist;
+export default TrackCard;

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "../Stylesheets/Footer.css";
 import { useStateProviderValue } from "../StateProvider";
 import SpotifyPlayer from "react-spotify-web-playback";
 function Footer() {

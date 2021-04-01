@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Player.css";
+import "../Stylesheets/Player.css";
 import ArrowBackIosRoundedIcon from "@material-ui/icons/ArrowBackIosRounded";
 import ArrowForwardIosRoundedIcon from "@material-ui/icons/ArrowForwardIosRounded";
 import SearchRoundedIcon from "@material-ui/icons/SearchRounded";

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useStateProviderValue } from "../StateProvider";
-import "./Body.css";
-import Playlist from "./Playlist";
+import "../Stylesheets/Body.css";
+import TrackCard from "./TrackCard";
 import TopGlassContainer from "./TopGlassContainer";
 function Body() {
   const [
@@ -37,7 +37,7 @@ function Body() {
         <h1>{newReleases?.name}</h1>
         <div className="songdata">
           {newReleases?.track_details.albums.items.slice(0, 4).map((item) => (
-            <Playlist
+            <TrackCard
             // track={item}
               key={item.uri}
               imageUrl={item.images[0].url}
@@ -51,7 +51,7 @@ function Body() {
         <div className="songdata">
           {rPlaylist?.track_details.items.slice(0, 4).map((item) => (
 // console.log(item)
-            <Playlist
+            <TrackCard
             track={item}
               key={item.track.id}
               imageUrl={item.track.album.images[0].url}

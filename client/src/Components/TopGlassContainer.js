@@ -1,6 +1,6 @@
 import React from "react";
 import { useStateProviderValue } from "../StateProvider";
-import "./TopGlassContainer.css";
+import "../Stylesheets/TopGlassContainer.css";
 
 function TopGlassContainer({ item }) {
   const [{ nowPlaying, playState }, dispatch] = useStateProviderValue();

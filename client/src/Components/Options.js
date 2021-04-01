@@ -1,6 +1,6 @@
 import React from "react";
 import { useStateProviderValue } from "../StateProvider";
-import "./Options.css";
+import "../Stylesheets/Options.css";
 
 function Options({ option, Icon, id, trackUri }) {
   const [{ nowPlaying }, dispatch] = useStateProviderValue();

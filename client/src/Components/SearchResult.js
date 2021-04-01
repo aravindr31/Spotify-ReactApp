@@ -1,7 +1,7 @@
 import React from "react";
 import { useStateProviderValue } from "../StateProvider";
-import Playlist from "./Playlist";
-import "./SearchResult.css";
+import TrackCard from "./TrackCard";
+import "../Stylesheets/SearchResult.css";
 function SearchResult() {
   const [{ searchResult }] = useStateProviderValue();
   if (searchResult.length === 0) return [];
@@ -12,7 +12,7 @@ function SearchResult() {
         <div className="songdata">
           {searchResult.map((track) => (
             // console.log(track)
-            <Playlist 
+            <TrackCard 
             key={track.uri}
             imageUrl={track.album.images[0].url}
             songName={track.album.name}

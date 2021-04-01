@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Auth from "../Auth";
 import Player from "./Player";
 import Sidebar from "./Sidebar";
-import "./Home.css";
+import "../Stylesheets/Home.css";
 import SpotifyWebApi from "spotify-web-api-node";
 import { useStateProviderValue } from "../StateProvider";
 import Footer from "./Footer";

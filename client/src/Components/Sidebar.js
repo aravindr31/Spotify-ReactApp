@@ -1,6 +1,6 @@
 import React from "react";
 import Options from "./Options";
-import "./Sidebar.css";
+import "../Stylesheets/Sidebar.css";
 import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
 import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 import LibraryMusicOutlinedIcon from "@material-ui/icons/LibraryMusicOutlined";
