@@ -2,7 +2,7 @@
 
 DEPLOYED URL
 
-# https://spotify-react-player.herokuapp.com/
+# http://spotify-react-player.surge.sh/
 
 This app uses SPOTIFY Authentication services.
 
